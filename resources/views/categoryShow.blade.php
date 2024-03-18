@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center mt-3">{{__('ui.exploreCategory')}} {{$category->name}}</h1>
+                <h1 class="text-center mt-3 titoloo">{{__('ui.exploreCategory')}} {{$category->name}}</h1>
             </div>
             <div class="row m-0">
                 @forelse ($category->announcements as $announcement)

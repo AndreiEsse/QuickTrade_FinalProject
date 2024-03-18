@@ -1,5 +1,5 @@
 <div>
-    <h1 class="text-center display-1">{{__('ui.createAnnouncement')}}</h1>
+    <h1 class="text-center display-1 titoloo">{{__('ui.createAnnouncement')}}</h1>
 
     @if (session('message'))
         <div class="alert alert-success flex flex-row justify-center my-2">

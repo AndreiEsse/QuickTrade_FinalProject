@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1 class="text-center my-3 mt-4">
+        <h1 class="text-center my-3 mt-4 titoloo">
           @if($announcement_to_check)
           {{__('ui.reviseAnnouncement')}}
           @else

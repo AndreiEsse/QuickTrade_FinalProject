@@ -10,24 +10,26 @@ html {
 body {
     /* display: flex;
     flex-direction: column; */
-
+    color: #e9e9e9;
+    background-color: #ff4040;
+    height: 100%;
     margin: 0;
 }
 
-.welcome-page {
+/* .welcome-page {
 
     background-color: #ffffff;
-}
+} */
 
 .welcome-page-elements {
-    color: #e9e9e9;
+    /* color: #e9e9e9; */
     transition: 0.3s;
 }
 
 /* navbar  */
 
 .navbar {
-    background-color: #ed3232;
+    background-color: #cc2c2c;
 }
 
 .logo_custom {
@@ -99,8 +101,11 @@ body {
     object-fit: cover;
 }
 
-
+.titoloo{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 /* card pagina principale  */
+
 
 
 .card-welcome {
@@ -124,7 +129,7 @@ body {
 
 .publishedby-section-container {
     position: relative;
-    height: 20vh;
+    height:27vh;
 }
 
 .publishedby-section-cards {

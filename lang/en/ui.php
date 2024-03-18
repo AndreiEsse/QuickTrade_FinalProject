@@ -67,5 +67,12 @@ return [
     We want to create an interactive and secure environment where buyers and sellers can connect effortlessly. 
     We use advanced technologies to enhance the shopping experience, aiming to create an inclusive and satisfied community. 
     Our mission is to redefine digital commerce, emphasizing innovation and customer satisfaction.',
-
+    'imageMessage' => 'image not available',
+    'registerTitle' => 'Hello, register',
+    'registerName' => 'Name',
+    'insertName' => 'Insert name',
+    'insertEmail' => 'Insert email',
+    'insertPassword' => 'Insert password',
+    'registerConfirmPassword' => 'Confirm password',
+    'insertConfirmPassword' => 'Re-enter password'
 ];

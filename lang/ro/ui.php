@@ -65,4 +65,12 @@ return [
     Dorim să creăm un mediu interactiv și sigur în care cumpărătorii și vânzătorii să poată să se conecteze fără efort.
     Folosim tehnologii avansate pentru a îmbunătăți experiența de cumpărare, având ca scop crearea unei comunități incluzive și satisfăcute.
     Misiunea noastră este să redefinim comerțul digital, accentuând inovația și satisfacția clienților.',
+    'imageMessage' => 'imagine indisponibilă',
+    'registerTitle' => 'Bună, înregistrează-te',
+    'registerName' => 'Nume',
+    'insertName' => 'Introduceți numele',
+    'insertEmail' => 'Introduceți adresa de email',
+    'insertPassword' => 'Introduceți parola',
+    'registerConfirmPassword' => 'Confirmă parola',
+    'insertConfirmPassword' => 'Introduceți din nou parola'
 ];

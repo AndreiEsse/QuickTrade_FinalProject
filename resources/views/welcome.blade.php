@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-center pt-5 text-dark">{{__('ui.welcomePageTitle')}}</h1>
+                    <h1 class="titoloo text-center pt-5">{{__('ui.welcomePageTitle')}}</h1>
                     @if (session('access.denied'))
                     <div class="alert alert-danger text-center">
                         {{ session('access.denied') }}
@@ -28,7 +28,7 @@
                             <div class="col-12 col-md-4 my-4 d-flex justify-content-center div-container divvino">
                                 <div class="card shadow card-welcome" style="width: 22rem;">
                                     <div class="img-container ">
-                                        <img src="{{!$announcement->images()->get()->isEmpty() ? $announcement->images()->first()->getUrl(300,300) : 'https://picsum.photos/200'}}" class="card-img-top mb-0 card-img-welcome img-fluid " alt=". . .">
+                                        <img src="{{!$announcement->images()->get()->isEmpty() ? $announcement->images()->first()->getUrl(300,300) : 'https://picsum.photos/200'}}" class="card-img-top mb-0 card-img-welcome img-fluid " alt="{{__('ui.imageMessage')}}">
                                     </div>
                                     <div class="pb-0 publishedby-section-container px-4">
                                         <h5 class="card-title mb-0">{{Str::limit($announcement->title, 20)}}</h5>

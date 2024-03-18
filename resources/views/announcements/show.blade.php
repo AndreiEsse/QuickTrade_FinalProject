@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center my-4"> {{ __('ui.announcement') }} {{ $announcement->title }}</h1>
+                <h1 class="text-center my-4 titoloo"> {{ __('ui.announcement') }} {{ $announcement->title }}</h1>
             </div>
         </div>
     </div>

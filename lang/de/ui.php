@@ -65,4 +65,12 @@ return [
     Wir möchten eine interaktive und sichere Umgebung schaffen, in der Käufer und Verkäufer mühelos in Kontakt treten können.
     Wir verwenden fortschrittliche Technologien, um das Einkaufserlebnis zu verbessern und eine inklusive und zufriedene Gemeinschaft zu schaffen.
     Unsere Mission ist es, den digitalen Handel neu zu definieren und dabei Innovation und Kundenzufriedenheit zu betonen.',
+    'imageMessage' => 'Bild nicht verfügbar',
+    'registerTitle' => 'Hallo, registriere dich',
+    'registerName' => 'Name',
+    'insertName' => 'Name eingeben',
+    'insertEmail' => 'E-Mail eingeben',
+    'insertPassword' => 'Passwort eingeben',
+    'registerConfirmPassword' => 'Passwort bestätigen',
+    'insertConfirmPassword' => 'Passwort erneut eingeben',
 ];

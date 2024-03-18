@@ -65,4 +65,12 @@ return [
     Queremos crear un entorno interactivo y seguro donde compradores y vendedores puedan conectarse sin esfuerzo. 
     Utilizamos tecnologías avanzadas para mejorar la experiencia de compra, con el objetivo de crear una comunidad inclusiva y satisfecha. 
     Nuestra misión es redefinir el comercio digital, enfatizando la innovación y la satisfacción del cliente.',
+    'imageMessage' => 'imagen no disponible',
+    'registerTitle' => 'Hola, regístrate',
+    'registerName' => 'Nombre',
+    'insertName' => 'Insertar nombre',
+    'insertEmail' => 'Insertar correo electrónico',
+    'insertPassword' => 'Insertar contraseña',
+    'registerConfirmPassword' => 'Confirmar contraseña',
+    'insertConfirmPassword' => 'Volver a introducir la contraseña'
 ];

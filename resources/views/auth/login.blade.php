@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-6">
-                <h1 class="text-center display-1 mt-3"> {{__('ui.loginWelcomeMessage')}} </h1>
+                <h1 class="text-center display-1 mt-3 titoloo"> {{__('ui.loginWelcomeMessage')}} </h1>
             </div>
         </div>
     </div>
@@ -24,11 +24,11 @@
                     @csrf
                     <div class="form-group mt-4">
                       <label for="inputEmail" class="my-2">Email</label>
-                      <input name="email" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                      <input name="email" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="{{__('ui.insertEmail')}}">
                     </div>
                     <div class="form-group">
                       <label for="inputPassword" class="my-2">Password</label>
-                      <input name="password" type="password" class="form-control" id="inputPassword" placeholder="Password">
+                      <input name="password" type="password" class="form-control" id="inputPassword" placeholder="{{__('ui.insertPassword')}}">
                     </div>
                     <div class="form-check my-2">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
